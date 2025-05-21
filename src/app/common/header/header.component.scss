@@ -1,0 +1,24 @@
+
+
+
+.fontstyle {
+    font-family: 'Montserrat', sans-serif;
+  }
+  $primary-color: #b07a2f;
+$secondary-color: #12151c;
+$text-color: #b7b7b7;
+.bg-custom {
+  background-color: $secondary-color;
+}
+.text-custom {
+  color: $text-color;
+}
+.text-primary {
+  color: $primary-color;
+}
+.hover\:text-primary:hover {
+  color: $primary-color;
+}
+.hover\:bg-primary:hover {
+  background-color: $primary-color;
+}

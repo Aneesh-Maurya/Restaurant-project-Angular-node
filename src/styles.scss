@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import "https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap";
+@import "https://fonts.googleapis.com/css2?family=Sofia&amp;display=swap";
+
+:root {
+    --fontFamily: "Lobster Two", cursive;
+    --bodyFontFamily: "Roboto", sans-serif;
+    --titleFontFamily: "Sofia", cursive;
+    --mainColor: #C59D5F;
+    --optionalColor: #151B20;
+    --headingColor: #FDFDFD;
+    --bodyColor: #ABB8C3;
+    --whiteColor: #FFFFFF;
+    --transition: all ease 0.8s
+}
+
+.owl-carousel {
+   
+    width: 100%;
+    z-index: 1;
+}
